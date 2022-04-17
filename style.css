@@ -113,15 +113,15 @@ section{
     transform: translateY(-50%);
 }
 
-.active-btn{
-    background-color: var(--color-secondary) !important;
-    transition: all .4s ease-in-out;
-}
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
 
-.control{
+.button{
     padding: 1rem;
     cursor: pointer;
-    background-color: var(--color-grey-4);
+    background-color: var(--color-grey0);
     width: 55px;
     height: 55px;
     border-radius: 50%;
