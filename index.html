@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>About Me</title>
+	<title>Main menu</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,22 +68,22 @@
 		<section class="section sec5 contact" id="contact"></section>
 	</main>
 
-	<div class="controlls">
-		<div class="control control-1 active-btn" data-id="home">
+	<div class="buttons">
+		<button class="control control-1 active-btn" id="home" onclick="javascript:location.href='index.html'">Home
 			<i class="fas fa-home"></i>
-		</div>
-		<div class="control control-2" data-id="about">
+		</button>
+		<button class="control control-2" id="about" onclick="javascript:location.href='aboutMe.html'">About Me
 			<i class="fas fa-user"></i>
-		</div>
-		<div class="control control-3" data-id="portfolio">
+		</button>
+		<button class="control control-3" id="portfolio" onclick="javascript:location.href='portfolio.html'">Jobs
 			<i class="fas fa-briefcase"></i>
-		</div>
-		<div class="control control-4" data-id="project">
+		</button>
+		<button class="control control-4" id="project" onclick="javascript:location.href='project.html'">Projects done
 			<i class="fa-solid fa-code"></i>
-		</div>
-		<div class="control control-5" data-id="contact">
+		</button>
+		<button class="control control-5" id="contact" onclick="javascript:location.href='contact.html'">Contact Me
 			<i class="fas fa-envelope-open"></i>
-		</div>
+		</button>
 	</div>
 
 	<script src = "app.js"></script>
