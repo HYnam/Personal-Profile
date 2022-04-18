@@ -54,6 +54,7 @@ header{
     background-color: rgba(38, 95, 228, 0.849);
 }
 
+/*
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
@@ -76,6 +77,7 @@ header{
     display: none;
     transform: translateY(0) scale(1);
 }
+*/
 
 .active {
     display: block;
