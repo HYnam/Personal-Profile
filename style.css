@@ -180,6 +180,13 @@ img{
     padding-right: 18rem;
 }
 
+.right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 18rem;
+}
+
 .name{
     font-size: 3rem;
 }
