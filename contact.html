@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width", initial-scale="1.0">
 	    <title>Contact Me</title>
 	    <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/form.css">
 	    <link rel="preconnect" href="https://fonts.googleapis.com">
 	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -44,6 +45,21 @@
 
 				<div class="column">
 					<h4>My contact form</h4>
+					<form onsubmit="return false">
+						Enter your last name:
+						<input type="text" placeholder="Enter your last name" id="lastName" />
+						<br><br>
+						Enter your first name: 
+						<input type="text" placeholder="Enter your first name" id="firstName" />
+						<br><br>
+						Enter your email: 
+						<input type="email" placeholder="Enter your email" id="email" />
+						<br><br>
+						<p>Why question do you have?</p>
+						<textarea id="question" rows="4"></textarea>
+						<br><br>
+						<button onclick="sendContact();">Send contact</button>
+					</form>
 				</div>
 			</div>
 			
