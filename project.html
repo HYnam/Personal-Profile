@@ -66,8 +66,14 @@
 					</div>
 
 					<div class="column">
-						<img id="myImg" src="images/StockInventory.png" alt="Check inventory with console" style="width:100%;max-width: 300px;">
-						<p>Check inventory with console</p>
+						<div id="overlay" onclick="off()">
+							<div id="text">Check inventory with console</div>
+						</div>
+
+						<div>
+							<img id="inv" src="images/StockInventory.png" onclick="on()">
+						</div>
+						<br>
 						<a href="https://github.com/HYnam/Inventory-management"><i class="fab fa-github fa-2x"></i></a>
 				</div>
 			</div>
@@ -76,13 +82,18 @@
 				<h1><span>Personal Projects </span></h1>
 				<div class="row">
 					<div class="column">
-						<img id="myImg" src="images/python.png" alt="Python practice" style="width:100%;max-width:100px;">
-						<p>Python practice</p>
+						<div id="overlay" onclick="off()">
+							<div id="text">Python practice</div>
+						</div>
+						<div>
+							<img id="myImg" src="images/python.png" alt="Python practice" style="width:100%;max-width:100px;" onclick="on()">
+						</div>
 						<a href="https://github.com/HYnam/Python-basic"><i class="fab fa-github fa-2x"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<script src="js/modal.js"></script>
+		<script src="js/overlay.js"></script>
 	</body>
 </html>
