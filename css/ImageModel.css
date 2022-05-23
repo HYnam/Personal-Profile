@@ -36,6 +36,7 @@ html {
   display: block;
   width: 80%;
   max-width: 700px;
+  height: 80%;
 }
 
 /* Caption of Modal Image */

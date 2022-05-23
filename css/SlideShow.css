@@ -11,7 +11,7 @@
 }
 
 .mySlides {
-    /*display: none;*/
+    display: none;
     border-radius: var(--br-sm-2);
     height: 100%;
     width: 65%;
@@ -20,7 +20,14 @@
 
 }
 
-img {vertical-align: middle;}
+img {
+  vertical-align: middle;
+  border-radius: var(--br-sm-2);
+  height: 100%;
+  width: 65%;
+  margin-left: 4rem;
+  transition: all .4s ease-in-out;
+}
 
   /* Next & previous buttons */
 .prev, .next {
